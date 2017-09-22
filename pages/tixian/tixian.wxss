@@ -1,0 +1,77 @@
+/* pages/tixian/tixian.js.wxss */
+.ti-main{
+  padding: 10px 15px 10px 15px;
+}
+.jb{
+  font-size: 10px;
+  text-align: right;
+}
+.jb-cointer{
+  background: #fff;
+  margin-top: 10px;
+  padding: 15px;
+  padding-bottom: 0;
+}
+.form-list{
+  position: relative;
+}
+.form-left{
+  padding-left: 74px;
+}
+.form-title{
+  color: #000;
+  position: absolute;
+  font-size: 12px;
+  left: 0;
+  top: 2px;
+}
+input{
+  flex: 1;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+}
+.t-number{
+  font-size: 14px;
+  color: #000;
+}
+.t-number-text{
+  font-size: 10px;
+  color: #000;
+}
+.plopar{
+  color: rgba(0, 0, 0, 0.45);
+}
+.cyn-view{
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+  padding-top: 15px;
+}
+.cyn-logo{
+  position: absolute;
+  font-size: 16px;
+  left: 0;
+  top: 15px;
+}
+.cyn-input{
+  padding-left: 15px;
+  height:34px;
+  line-height: 34px;
+}
+.home-btn{
+  width:100%;
+  line-height:36px;
+  height:36px;
+  color: #fff;
+  background-color: #1985ac;
+  border-color: #187fa3;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.text-footer{
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.45);
+  width: 100%;
+}

@@ -1,0 +1,82 @@
+/* pages/share/share.wxss */
+.container{
+  background: #CD533D;
+}
+.demo-top-view {
+  padding-top:15px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background: #D95842;
+  z-index: 1;
+}
+.userinfo-avatar{
+  width:128rpx;
+  height:128rpx;
+  border-radius:5px;
+}
+.send-text{
+  color: #FED3A2;
+  font-size: 14px;
+  padding-top: 5px;
+}
+.send-title{
+  font-size: 18px;
+  color: #FCE3B3;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.share-img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.pack-img{
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+  z-index: 10;
+  position: relative;
+}
+.pack-center{
+  width: 100%;
+  height: 174px;
+  margin-top: -30px;
+  position: relative;
+  text-align: center;
+}
+.share-bottom{
+  padding: 0 15px;
+  margin-top: -20px;
+  z-index: 11;
+}
+.share-btn-cointer{
+  padding: 15px;
+  background: #fff;
+  border-radius: 5px;
+}
+.btn{
+  width:100%;
+  line-height:36px;
+  height:36px;
+  margin-top:5px;
+  margin-bottom: 15px;
+  font-size:14px;
+  border-radius:8px;
+}
+.zf{
+  color: #fff;
+  background: #1AAD19;
+}
+.sh{
+  color: #000; 
+  background: #F9F9F9; 
+}
+.me-to{
+  color: #777;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
+}

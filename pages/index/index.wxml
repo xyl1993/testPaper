@@ -1,0 +1,54 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='main'>
+    <view class="home">
+      <view class="userIcon">
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      </view>
+      <view class='form-control'>
+        <view class='form-list'>
+          <view class="form-left">
+            <text class="form-title">设置目标</text>
+            <input type="text" placeholder="谢谢你" placeholder-style='plopar' maxlength="20"></input>
+          </view>
+          <view class="width-full">
+            <text class="dd">小夏哥哥你好帅</text>
+            <text data-type="demo" bindtap="tabMenu" class='fa fa-question-circle-o'></text>
+          </view>
+        </view>
+        <view class='form-list form-left'>
+          <text class="form-title">设置目标</text>
+          <input type="text" placeholder="谢谢你" maxlength="20"></input>
+        </view>
+        <view class='form-list form-left'>
+          <text class="form-title">设置目标</text>
+          <input type="text" placeholder="谢谢你" maxlength="20"></input>
+        </view>
+        <view class='bot-dd'>
+          <text>需支付,余额</text>
+        </view>
+        <button class="home-btn">生成表单</button>
+      </view>
+    </view>
+  </view>
+  <view class='footer'>
+    <view class="footer-list" data-type="home" bindtap="tabMenu">
+      <view class="footer-icon">
+        <text class="fa fa-list"></text>
+      </view>
+       <text class="footer-text">我的记录</text>
+    </view>
+    <view class="footer-list" data-type="tixian" bindtap="tabMenu">
+      <view class="footer-icon">
+        <text class="fa fa-jpy"></text>
+      </view>
+       <text class="footer-text">余额提现</text>
+    </view>
+    <view class="footer-list" data-type="question"  bindtap="tabMenu">
+      <view class="footer-icon">
+        <text class="fa fa-question"></text>
+      </view>
+      <text class="footer-text">常见问题</text>
+    </view>
+  </view>
+</view>

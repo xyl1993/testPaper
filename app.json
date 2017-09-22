@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/tixian/tixian",
+    "pages/home/home",
+    "pages/question/question",
+    "pages/demo/demo",
+    "pages/share/share"
+  ],
+  "window": {
+    "backgroundColor": "#F2F2F2",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#D7583F",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "#fff"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

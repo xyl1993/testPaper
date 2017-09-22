@@ -1,0 +1,92 @@
+<view class="container">
+  <view class="swiper-tab">
+    <view class="swiper-tab-list  {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">
+      <text class="swiper-text">我发出的</text>
+      <view class="split"></view>
+    </view>
+    <view class="swiper-tab-list  {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">
+      <text class="swiper-text">我收到的</text>
+      <view class="split"></view>
+    </view>
+  </view>
+  <swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 34}}px" bindchange="bindChange">
+    <!-- 我是哈哈 -->
+    <swiper-item>
+      <view class="send-view">
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <view class="send-text">
+          <text style="color:#51C332">{{userInfo.nickName}}</text>
+          发出的
+        </view>
+        <view class="send-lib">
+          <view class="lib-t">
+            <view style="font-size:13px;color:#777;padding-bottom:5px;">
+              金额(元)
+            </view>
+            <view>
+              0
+            </view>
+          </view>
+           <view style="width:40px;"></view>
+          <view class="lib-t">
+            <view style="font-size:13px;color:#777;padding-bottom:5px;">
+              金额(元)
+            </view>
+            <view>
+              0
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="text-footer">
+        <text>常见问题</text>
+      </view>
+    </swiper-item>
+    <!-- 我是呵呵 -->
+    <swiper-item>
+      <view class="send-view">
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <view class="send-text">
+          <text style="color:#51C332">{{userInfo.nickName}}</text>
+          收到的
+        </view>
+        <view class="send-lib">
+          <view class="lib-t">
+            <view style="font-size:13px;color:#777;padding-bottom:5px;">
+              金额(元)
+            </view>
+            <view>
+              0
+            </view>
+          </view>
+           <view style="width:40px;"></view>
+          <view class="lib-t">
+            <view style="font-size:13px;color:#777;padding-bottom:5px;">
+              金额(元)
+            </view>
+            <view>
+              0
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='revice-cointer'>
+        <view class='revice-list'>
+          <image class="revice-info-avatar" src="{{userInfo.avatarUrl}}"     background-size="cover"></image>
+          <view class='revice-det'>
+            <view class='list-info'>
+              <text class='name'>喵喵</text>
+              <text class='num'>9.00</text>
+            </view>
+            <view class="list-time">
+              2017-9-9
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="text-footer">
+        <text>常见问题</text>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>

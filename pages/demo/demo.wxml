@@ -1,0 +1,52 @@
+<view class="container">
+  <view class='demo-top-view'>
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <view class="send-text">发红包-事例</view>
+    <view class="demo-text">
+      <text class='fa fa-paypal'></text>
+      3
+    </view>
+    <button class="demo-btn">红包已经派完了</button>
+    <view class="t-menu">
+      <view class="menu-lib">
+        <text class="fa fa-jpy"></text><text>去提现</text>
+      </view>
+      <view class="menu-lib">
+        <text class="fa fa-podcast"></text><text>发口令</text>
+      </view>
+      <view class="menu-lib" data-type="share" bindtap="tabMenu">
+        <text class="fa fa-share-alt"></text><text>去转发</text>
+      </view>
+    </view>
+  </view>
+  <view class="demo-list">
+    <view class='list-top'>
+      共88.88元,共领取3/3个
+      <text style='float:right;color:#51C332'>举报</text>
+    </view>
+    <view class="list-main">
+      <image class="revice-info-avatar" src="{{userInfo.avatarUrl}}"     background-size="cover"></image>
+      <view class='revice-det'>
+        <view class='list-info'>
+          <text class='name'>喵喵</text>
+          <text class='num'>9.00元</text>
+        </view>
+        <view class="list-time">
+          2017-9-9
+        </view>
+      </view>
+    </view>
+    <view class="list-main">
+      <image class="revice-info-avatar" src="{{userInfo.avatarUrl}}"     background-size="cover"></image>
+      <view class='revice-det'>
+        <view class='list-info'>
+          <text class='name'>喵喵</text>
+          <text class='num'>9.00 元</text>
+        </view>
+        <view class="list-time">
+          2017-9-9
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,83 @@
+/**index.wxss**/
+.home {
+  display: flex;
+  flex-direction: column;
+}
+.userIcon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 128rpx;
+  z-index: 10;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+}
+.form-control{
+  display: flex;
+  flex: 1;
+  background-color: #fff;
+  margin-top: -64rpx;
+  flex-direction: column;
+  padding:128rpx 25rpx 80rpx 25rpx;
+  box-shadow: 1px 1px 5px rgba(136, 136, 136, 0.5);
+}
+.form-list{
+  position: relative;
+  padding-bottom: 15px;
+}
+.form-left{
+  padding-left: 74px;
+}
+.form-title{
+  color: #000;
+  position: absolute;
+  font-size: 14px;
+  left: 0;
+  top: 2px;
+}
+input{
+  flex: 1;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+}
+.plopar{
+  color: rgba(0, 0, 0, 0.45);
+}
+.bot-dd{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.45);
+  margin-top: 10px;
+}
+.home-btn{
+  width:100%;
+  background:#D85940;
+  line-height:36px;
+  height:36px;
+  margin-top:15px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 100px;
+}
+.fa-question-circle-o{
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+  padding-left: 2px;
+}
+.footer-icon{
+  width:25px;
+  height:25px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #777;
+  color: #fff;
+  text-align: center;
+  line-height: 24px;
+  font-size: 10px;
+}

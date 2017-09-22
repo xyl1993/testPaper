@@ -1,0 +1,35 @@
+<view class="container">
+  <view class="ti-main">
+    <view class='jb'>举报</view>
+    <view class='jb-cointer'>
+      <view class='form-list' style='padding-bottom:20px;'>
+        <view class="form-left">
+          <text class="form-title">账户余额</text>
+          <view>
+            <text class='t-number'>0.00</text><text class='t-number-text'>元</text>
+          </view>
+        </view>
+      </view>
+      <view class='form-list'>
+        <view class="form-left" style='padding-left:0;'>
+          <text class="form-title" style='position:relative;'>提现金额</text>
+        </view>
+        <view class='cyn-view'>
+          <text class="cyn-logo">Ұ</text>
+          <input class='cyn-input' type="number"></input>
+        </view>
+        <view class="width-full" style="padding:5px 0;">
+          <text class="dd">全部提现</text>
+        </view>
+        <button class="home-btn">生成表单</button>
+        <view class="width-full" style="padding:5px 0;text-align:center">
+          <text class="dd">全部提现</text>
+        </view>
+      </view>
+    </view>
+    
+  </view>
+  <view class="text-footer">
+    <text>常见问题</text>
+  </view>
+</view>

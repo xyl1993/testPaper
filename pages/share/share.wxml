@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="demo-top-view">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <view class="send-text">发了一个口令红包</view>
+    <view class="send-title">
+      夏哥哥最帅
+    </view>
+  </view>
+  <view class='pack-center'>
+    <image class="share-img" src="../../resources/images/share.png"></image>
+    <image class="pack-img" src="../../resources/images/pack.png"></image>
+  </view>
+  <view class="share-bottom">
+    <view class="share-btn-cointer">
+      <button class="btn zf">转发到朋友圈</button>
+      <button class="btn sh">生成朋友圈分享图</button>
+      <view class="me-to">我也试试 <text class="fa fa-long-arrow-right"></text></view>
+    </view>
+  </view>
+</view>
